@@ -1,0 +1,7 @@
+{
+  "name": "fgoapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
