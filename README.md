@@ -1,6 +1,9 @@
 
 # FGO MANAGER APP
 
+
+![Logo](https://upload.wikimedia.org/wikipedia/commons/d/d1/Ionic_Logo.svg)
+
 Mobile app created with Ionic Framework, using an API from atlas academy that provides all the necesery data about FGO ranging from servants all the way to its minute details
 
 This app is still in development and every recommendation or critics will be great to make this a full blown working mobile app.
