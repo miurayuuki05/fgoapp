@@ -1,0 +1,11 @@
+.font-raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+ion-title.title-large{
+    font-size: 25px;
+}
+
+.padd-title{
+    padding: 22px;
+}
