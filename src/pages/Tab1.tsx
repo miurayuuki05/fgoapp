@@ -6,18 +6,19 @@ import { Route } from 'react-router';
 import { IonReactRouter } from '@ionic/react-router';
 import { IonRouterOutlet } from '@ionic/react';
 import Tab2 from './Tab2';
+import { IonButton } from '@ionic/react';
 
 
 const Tab1: React.FC = () => {
   return (
     <IonPage>
-      <IonReactRouter>
+      {/* <IonReactRouter>
         <IonRouterOutlet>
           <Route exact path="/tab2">
             <Tab2 />
           </Route>
         </IonRouterOutlet>
-      </IonReactRouter>
+      </IonReactRouter> */}
 
       <IonHeader>
         <IonToolbar>
@@ -32,8 +33,10 @@ const Tab1: React.FC = () => {
         </IonHeader> 
         
       <IonTitle className='font-raleway my-10'>EVENTS</IonTitle>
-      <IonCard color="light" className='padd-5 marg'>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTERoL2JM3P9lpVBCnnSuvXqZF5wfdkjPJ4nJHgA3SToDH5WU8sqwkoCljkTEv8UZ-lYx4&usqp=CAU" width={1000} alt="Events"/>
+      <IonCard color="light" className='padd-2 marg-5'>
+        <IonButton href='/Tab2' color={'light'}>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTERoL2JM3P9lpVBCnnSuvXqZF5wfdkjPJ4nJHgA3SToDH5WU8sqwkoCljkTEv8UZ-lYx4&usqp=CAU" width={1000} alt="Events"/>
+        </IonButton>
       </IonCard>
       </IonContent>
     </IonPage>
